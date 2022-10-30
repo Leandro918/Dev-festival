@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./carrinho.css">
+    <script defer src="./carrinho.js"></script>
+    <title>Carrinho</title>
+</head>
+<body>
+    <header>
+        <ul class="ulHeader">
+           <li class="liHeader">
+               <img class="imgHeaderLogo" src="./imgs/patoLogo.png" alt="logo">
+            </li>
+   
+            <li class="liHeader2">
+               <button class="butHeader">
+                   <a href="https://kenzie.com.br/blog/">
+                        Sobre
+                   </a>
+               </button>
+            </li>
+        </ul>
+   </header>
+    <section> 
+        <ul class="ul2"> 
+            <li>
+                <h1>Finalizar a compra</h1>
+            </li>
+            <li class="liIn">
+                <h3>Engresse para o Kenzie Music Festival</h3>
+                <div class="divBut1"> 
+                    <div class="divBut">
+                        <button id="butMenos" class="butM">-</button>
+                        <span id="quantidade">1</span>
+                        <button id="butMais" class="butM">+</button>
+                    </div>
+                    <p>Valor total de : R$ <span id="preco">90</span>,00 </p>
+                </div>
+            </li>
+        </ul>
+
+        <div class="divForm">
+            <h2>Preecha os campos</h2>
+            <form id="for">
+                <input type="text" name="nome" id="name" placeholder="Seu nome">
+                <input type="email" name="email" id="mail" placeholder="Seu email">
+                <button type="submit" id="butFinalizarCompra" class="butForm">Finalizar a compra</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

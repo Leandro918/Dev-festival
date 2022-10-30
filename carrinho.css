@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 42);
+    color: #ffffff;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+}
+
+.butHeader{
+    background-color: black;
+    border-radius: 5px;
+    height: 30px;
+    width: 75px;
+ border: 2px solid #ffffff;
+}
+
+.imgHeaderLogo{
+    height: 50px;
+    width: 150px;
+}
+
+.ulHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    width: 870px;
+    list-style-type: none;
+}
+
+.liHeader2{
+    display: flex;
+    height: 60px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.butForm{
+    border-radius: 20px;
+    background-color: blue;
+    color:  #ffffff;
+    border: 2px solid blue;
+    height: 40px;
+    width: 190px;
+}
+input{
+    background-color : rgb(0, 0, 42);;
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+}
+
+a{
+    color: #ffffff;
+}
+
+.divForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.divBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+    justify-content: space-evenly;
+}
+
+.liIn{
+    border: 2px solid rgb(70, 70, 70);
+    border-radius: 7px;
+    height: 110px;
+    width: 550px;
+}
+
+.butM{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.divBut1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 15px;
+    gap: 5px;
+}
+
+h3{
+    margin: 5px;
+}
+h2{
+    margin: 15px;
+}
+h1{
+    margin: 15px;
+    font-size: 40px;
+}
+
+.ul2{
+    list-style-type: none;
+}
